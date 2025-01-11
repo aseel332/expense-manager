@@ -1,0 +1,402 @@
+.page-header{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
+  font-family: sans-serif;
+  margin-top: 35px;
+  
+}
+
+
+.home-body {
+  width: 95vw!important;
+}
+
+.logo-image{
+  height: 60px;
+  border-radius: 80px;
+  width: 70px;
+  margin-top: -18px;
+}
+
+
+
+.header-navigation-profile{
+  margin-top: 12px;
+}
+
+.navigation-profile{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation-buttons{
+  text-align: left;
+  display: flex;
+  gap: 30px;
+  height: 30px;
+  margin-left: 45px
+}
+
+.navigation-buttons button{
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.inactive{
+  border: none;
+}
+
+.profile-button{
+  display: flex;
+  justify-content: right;
+  
+  font-family: sans-serif;
+  font-size: 22px;
+  gap: 10px;
+  
+}
+.profile-button img{
+  margin-top: -12px;
+  height: 50px;
+  width: 50px;
+}
+
+.main-body{
+  display: flex;
+  gap: 80px;
+}
+
+.score-board{
+  height: 320px;
+  width: 600px;
+  background-color: #3E6175;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+.top-score-board{
+  display: flex;
+  font-family: sans-serif;
+  color: white;
+}
+
+.used-amount{
+  font-size: 28px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.total-amount{
+  margin-top: 36px;
+  margin-left: 7px;
+  font-size: 20px;
+}
+
+.days-left{
+  font-size: 18px;
+  margin-top: 36px;
+  margin-left: 33px;
+}
+
+.spending-score{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  gap: 340px;
+  font-size: 19px;
+}
+
+.empty-bar{
+  background-color: #D9D9D9;
+  height: 10px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.filled-bar{
+  background-color: white;
+  height: 10px;
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.total-expenses{
+  display: flex;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 40px;
+  margin-top: 30px;
+  gap: 10px
+}
+.expense-count{
+  margin-top: -8px;
+  font-size: 26px;
+}
+
+.supporting-statement{
+  font-size: 15px;
+}
+
+.expense-class{
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  gap: 70px;
+  
+}
+
+.good-count{
+  margin-bottom: 25px;
+}
+
+.avg-count{
+  margin-bottom: 25px;
+}
+
+.bad-count{
+  margin-bottom: 25px;
+}
+
+.expense-adder{
+  height: 320px;
+  width: 560px;
+  margin-top: 30px;
+  border-radius: 18px;
+  margin-left: 30px;
+  background-color: #3E6175;
+  font-family: sans-serif;
+  color: white;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.expense-top{
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.name-expense{
+  display: inline-block;
+  width: fit-content;
+  white-space: nowrap;
+  margin-right: 3px;
+  
+}
+
+.category-expense{
+  margin-left: 3px;
+}
+
+.name-category{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  /*gap: 25vh;
+  margin-left: -35px;*/
+  gap:15px;
+  margin-left: -22px;
+}
+
+.input-field{
+  width:250px;
+  height: 35px;
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #3E6175;
+  border-color: white;
+  
+
+}
+.input-field::placeholder{
+  color: white;
+}
+
+.name-category select{
+  height: 35px;
+  color: white;
+  border-width: 2px;
+}
+
+.date-setdate{
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+  height: 35px;
+  font-size: 30px;
+}
+
+.date-selector{
+  width: 250px;
+  height: 35px;
+}
+
+.current-checkbox{
+  width: 250px;
+  font-size: 18px;
+  align-self: center;
+  margin-left: 5px;
+  
+}
+
+
+
+.bottom-buttons{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 30px;
+  margin-left: -20px;
+}
+
+.submit-button{
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: #3E6175;
+  cursor: pointer;
+}
+
+.expenses-list{
+  font-family: sans-serif;
+  margin-top: 29px;
+}
+
+.expense-header{
+  font-size: 30px;
+}
+
+.horizontal-line{
+  width: 490px;
+  height: 2px;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+
+.main-list{
+  margin-left: 10px;
+}
+
+.list-timeline{
+  margin-top: 25px;
+  font-size: 26px;
+
+}
+
+.sub-list{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.item-container{
+  margin-top: 25px;
+  display: flex;
+}
+
+.name-category-amount{
+  display: flex;
+  justify-content: left;
+  gap: 8px;
+  width: 300px;
+  
+}
+
+.date-time{
+  font-size: 17px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  gap: 60px
+}
+
+.category-expense{
+  
+  width: 400px
+  
+}
+
+.amount-expense{
+   margin-right: -170;
+}
+
+.bad-amount{
+  color: red;
+}
+
+.good-amount{
+  color: green;
+}
+
+.avg-amount{
+  color: #3E6175;
+}
+
+.all-expense-link{
+  margin-top: 25px;
+  color: #3E6175;
+  margin-left: 10px;
+  font-size: 23px;
+}
+
+.link{
+  color: #3E6175;
+  cursor: pointer;
+  
+}
+.setdate{
+  margin-top: 15px;
+  margin-left: -10px;
+  
+  
+}
+
+.amount-input{
+
+}
+
+.amount-setdate{
+  margin-top: 30px
+}
+
+
+.hover-container{
+  margin-left: 100px;
+  height: 50px;
+  width: 80px;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+  color: white;
+  display: none;
+  
+}
+
+.hover-container-active{
+  display: initial;
+  cursor: pointer;
+}

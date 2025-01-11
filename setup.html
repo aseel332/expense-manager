@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="/styles/setup.css">
+</head>
+<body>
+  <div class = "page-header">
+    Expense Manager
+    <img src="/images/expense-manager-logo.png" class="logo-image">
+   </div>
+   <div class = "header-navigation-profile">
+    <div class = "navigation-profile">
+      <div class = "navigation-buttons">
+        <button class = "inactive" onclick="
+          window.location.href = 'home.html';
+          ">Home</button>
+        <button class = "inactive" onclick="
+        window.location.href = 'analytics.html';
+        ">Analytics</button>
+        <button>Setup</button>
+      </div>
+      <div class = "profile-button">
+        <img src = "images/profile-icon.png">
+        User
+      </div>
+    </div>
+   </div>
+   <div class = "main-body">
+    <div class = "left-body">
+      <div class="left-title">
+        Plans
+        <div class="horizontal-line"></div>
+      </div>
+      <div class="js-active-plan-list">
+
+      </div>
+      <div class = "plan-list js-plan-list">
+        
+      </div>
+    </div>
+    <div class="right-body">
+      <div class="plan-modifier">
+        <div class="modifier-header js-modifier-header">
+          Adding a plan
+        </div>
+        <div class="modifier-form">
+          <div class="name-modifier">
+            <input type="text" class="name-input input-field js-plan-name" placeholder="Name">
+          </div>
+          <div class="date-modifier">
+            <div>
+              <input type="datetime" class="input-field date-field js-start-date" placeholder="Star - Date">
+            </div>
+            <div>
+              -
+            </div>
+            <div>
+              <input type="datetime" class="input-field date-field js-end-date" placeholder="End - Date">
+            </div>
+          </div>
+          <div>
+            <input type="number" class="amount-field input-field js-plan-amount" placeholder="Amount">
+          </div>
+        </div>
+        <div class="specfic-percentage">
+          <div class = left-specific>
+            <div class = list-specific>
+              <div class="name-specific">
+                Saving
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-saving">
+              </div>
+            </div>
+            <div class = list-specific>
+              <div class="name-specific">
+                Shopping
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-shopping">
+              </div>
+            </div>
+            <div class = list-specific>
+              <div class="name-specific">
+                Msc.
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-msc">
+              </div>
+            </div>
+          </div>
+          <div class="right-specific">
+            <div class = list-specific>
+              <div class="name-specific">
+                Food
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-food">
+              </div>
+            </div>
+            <div class = list-specific>
+              <div class="name-specific">
+                Home & L
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-home">
+              </div>
+            </div>
+            <div class = list-specific>
+              <div class="name-specific">
+                Emergency
+              </div>
+              <div>
+                <input type="number" class="specific-input js-plan-emergency">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="modifier-button">
+            <div>
+              <button class="submit-button js-cacel-plan-button js-common-cancel">
+                Cancel
+              </button>
+            </div>
+            <div>
+              <button class="submit-button js-add-plan-button js-common-submit">
+                Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <script src="/scripts/setup.js" type="module"></script>
+</body>
+</html>

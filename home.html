@@ -1,0 +1,123 @@
+<hmtl>
+  <head>
+    <link rel = "stylesheet" href = "styles/home.css">
+  </head>
+  <body>
+    <div class="home-body">
+      <div class = "page-header">
+        Expense Manager
+        <img src="/images/expense-manager-logo.png" class="logo-image">
+       </div>
+       <div class = "header-navigation-profile">
+        <div class = "navigation-profile">
+          <div class = "navigation-buttons">
+            <button>Home</button>
+            <button class = "inactive"  onclick="
+            window.location.href = 'analytics.html';
+            ">Analytics</button>
+            <button class = "inactive" onclick="
+            window.location.href = 'setup.html';
+            ">Setup</button>
+          </div>
+          <div class = "profile-button" >
+            <img src = "images/profile-icon.png">
+            User
+          </div>
+        </div>
+       </div>
+       <div class = "main-body">
+        <div class="left-body">
+          <div class = "score-board js-score-board">
+            
+          </div>
+          <div class = "expense-adder">
+            <div class="expense-top">
+              Adding an Expense
+            </div>
+            <div class="expense-form">
+              <div class="name-category">
+              <div>
+              <input type="text" placeholder="Name" class="input-field js-expense-name" style="color: white;">
+              </div>
+              <div>
+              -
+              </div>
+              <div>
+                <select id="category" name="category" class="category-list input-field js-expense-category">
+                  <option value="category">Category</option>
+                  <option value="Home">Housing & living</option>
+                  <option value="Food">Food</option>
+                  <option value="Saving">Saving</option>
+                  <option value="Shopping">Shopping</option>
+                  <option value="Msc">Msc</option>
+                  <option value="Emergency">Emergency</option>
+                </select>
+              </div>
+              </div>
+              <div class = "date-setdate">
+                <div>
+                  <input type="date" class="date-selector input-field js-expense-date" style="color: white;" placeholder="Date">
+                </div>
+                <div>
+                  -
+                  </div>
+                  <div>
+                    <input type="time" class="input-field js-expense-time" placeholder="Time" style="color: white;">
+                  </div>
+              </div>
+              <div class="date-setdate amount-setdate">
+                <div>
+                <input type="number" placeholder="Amount" class="input-field amount-input js-expense-amount" style="color: white;">
+                </div>
+                <div class="current-checkbox js-date-time-checkbox" style="font-size: 14px;">
+                  <input type="checkbox">
+                  Set Current Date & Time
+                </div>
+              </div>
+              
+              <div class="bottom-buttons">
+                <div>
+                  <button class="submit-button">
+                    Cancel
+                  </button>
+                </div>
+                <div>
+                  <button class = "submit-button js-add-expense-button">
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-body">
+          <div class = "expenses-list">
+            <div class = "expense-header">
+              Expenses
+            </div>
+            <div class="horizontal-line"></div>
+            <div class = "main-list">
+              <div class="list-timeline">
+                Today
+                <div class = "sub-list js-today-list">
+                  
+                  
+                </div>
+              </div>
+              <div class="list-timeline">
+                Past
+                <div class = "sub-list js-past-list">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="all-expense-link">
+              <a class="link js-view-all-link">View All</a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <script src="/scripts/home.js" type="module"></script>
+    </div>
+  </body>
+</hmtl>
