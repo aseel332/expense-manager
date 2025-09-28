@@ -24,7 +24,7 @@ This project is a personal expense management web application designed to help u
 
 ## Tech Stack
 
-- **React (JSX)**: For a dynamic and interactive frontend interface.  
+- **JavaScript**: Used to put my skills of JavaScript in practise and improving knowledge on the core concepts.  
 - **Firebase**: Used for authentication, database storage, and real-time updates.  
 - **LocalStorage**: Temporarily stores user data for offline functionality and quick access.  
 - **Charting Library**: To visualize analytics and spending insights.
