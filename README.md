@@ -1,25 +1,39 @@
-# expense-manager
-<h1>One Place to sort out all your expenses</h1>
-This website aims to help users sustain the amount they are willing to spend for a particular duration they set in their plan.
+# Expense Tracker
 
-Fetaure:
-Create, Update Specific details and delete plans
-Sort out expenses according to the percentage set up by users
-Accounts for the days users didn't spend anything and creates a rolled over amount database 
-Categories the expense by accounting for the rolled over amount in to 3 Categories 
-    Good Expense
-    Avg Expense
-    Bad Expense 
-Gives a final score to the user by accountig for the categories of all the expenses 
-Ability to add Expenses and delete them
-Get the analytics on the total limit to spend in a day for indvidual expense category and also get insights of thei daily expenses 
+## Overview
 
+**First self-project worked on individually**  
 
-Benefits:
-Cleaner and easily acessible way to sort out your expense
-Susutaining the amount for the expenses over the whole time period 
+This project is a personal expense management web application designed to help users efficiently track and manage their spending habits. It allows users to create plans for a specific duration, monitor daily expenses, and categorize spending to gain insights into their financial behavior. The application provides a clean and accessible interface for managing and analyzing expenses over time.
 
-Future Plans:
-Create a feedback algorithm to help users slove their bad expense habbits 
-Include a direct API from payment apps to directly register Expenses 
-Accounting for negative balance by utilizing the funds from othe categories 
+## Purpose and Workflow
+
+- **Purpose**: Help users sustain the amount they are willing to spend for a given duration, while providing insights into spending patterns and overall financial health.  
+- **Workflow**:  
+  1. Users create, update, or delete spending plans for a specific period.  
+  2. Expenses are added, deleted, and categorized according to percentages set by the user.  
+  3. Days without spending are accounted for, creating a “rolled over” amount database.  
+  4. Expenses are categorized into **Good**, **Average**, and **Bad** spending based on the rolled-over amounts.  
+  5. A final score is generated based on the categories to provide a clear view of financial behavior.  
+  6. Analytics and insights are provided for daily spending limits across individual categories.
+
+- **Future Plans**:  
+  - Implement a feedback algorithm to help users correct bad expense habits.  
+  - Integrate direct APIs from payment apps to automatically register expenses.  
+  - Account for negative balances by utilizing funds from other categories.
+
+## Tech Stack
+
+- **React (JSX)**: For a dynamic and interactive frontend interface.  
+- **Firebase**: Used for authentication, database storage, and real-time updates.  
+- **LocalStorage**: Temporarily stores user data for offline functionality and quick access.  
+- **Charting Library**: To visualize analytics and spending insights.
+
+## Disclaimer
+
+- This project was my first self-project, built individually, so some areas need improvement.  
+- **Known issues / areas for improvement**:  
+  - Exposing security keys in the frontend.  
+  - Using LocalStorage for all data storage instead of secure backend storage.  
+  - Optimizing data handling and workflow.  
+- I am aware of these issues and actively working on improving them in future iterations.
