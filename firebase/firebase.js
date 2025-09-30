@@ -6,13 +6,13 @@ import { getFirestore, doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove }
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCoYsmTRB2oUmrOWcRyWurVP-waniKuRdU",
-  authDomain: "expense-manager-9b16e.firebaseapp.com",
-  projectId: "expense-manager-9b16e",
-  storageBucket: "expense-manager-9b16e.firebasestorage.app",
-  messagingSenderId: "337679659260",
-  appId: "1:337679659260:web:725c556dc2b80f6b1c6779",
-  measurementId: "G-X3RDWMLLS1"
+  apiKey: 
+  authDomain: 
+  projectId: 
+  storageBucket: 
+  messagingSenderId: 
+  appId: 
+  measurementId:
 };
 
 
@@ -149,3 +149,4 @@ export async function deleteExpense(expenseId) {
     console.error("No user is logged in.");
   }
 }
+
